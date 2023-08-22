@@ -2,14 +2,24 @@
 
 ## This is the solution of BCA(II)/L-021/Assignment/2023-24 by Sahil (aka Sahil-4)
 
-### Run below command(s) to compile and run this program
+### Clone this repo using below command
 
-1. `gcc dataset.c utils.c main.c -o main`
-2. `./main`
+```
+git clone git@github.com:Sahil-4/BCSL021-assginment-solution.git
+```
+
+### Run below command(s) to compile and run the program
+
+```
+gcc dataset.c utils.c main.c -o main
+./main
+```
 
 or
 
-1. `gcc dataset.c utils.c main.c -o main; ./main;`
+```
+ gcc dataset.c utils.c main.c -o main; ./main;
+```
 
 Note : Make sure you have gcc compiler installed in your system and you are running the command(s) in the directory where main.c dataset.c utils.h and utils.c are present
 
@@ -44,7 +54,7 @@ I have divided the logic mainly into three segments
 
 3.  [main](./main.c) - Then out main file comes this is the entry point of our program the flow of program will start from here
 
-4.  Through main.c I have provided main menu and asking user to input any option. This option I'm handing using switch case statement. If user will press 1 Case 1 will get executed and the displayGeneralInfo() function declared in utils.h and defined in utils.c will get executed. 
+4.  Through main.c I have provided main menu and asking user to input any option. This option I'm handing using switch case statement. If user will press 1 Case 1 will get executed and the displayGeneralInfo() function declared in utils.h and defined in utils.c will get executed.
 
 ### Screenshots of Runtime
 
