@@ -393,7 +393,7 @@ struct CounsellingSchedule councelling_schedule_BCA_dataset[] = {
     .programme = "BCA",
     .semester = 1,
     .course_code = "Subject A",
-    .councillor = "Alpha",
+    .councilor = "Alpha",
     .session_timing = {
       "Nov 4, 2023 at 9:00 AM",
       "Nov 5, 2023 at 9:00 AM",
@@ -410,7 +410,7 @@ struct CounsellingSchedule councelling_schedule_BCA_dataset[] = {
     .programme = "BCA",
     .semester = 1,
     .course_code = "Subject B",
-    .councillor = "Beta",
+    .councilor = "Beta",
     .session_timing = {
       "Nov 4, 2023 at 11:00 AM",
       "Nov 5, 2023 at 11:00 AM",
@@ -427,7 +427,7 @@ struct CounsellingSchedule councelling_schedule_BCA_dataset[] = {
     .programme = "BCA",
     .semester = 1,
     .course_code = "Subject C",
-    .councillor = "Gamma",
+    .councilor = "Gamma",
     .session_timing = {
       "Nov 4, 2023 at 1:00 PM",
       "Nov 5, 2023 at 1:00 PM",
@@ -445,7 +445,7 @@ struct CounsellingSchedule councelling_schedule_BCA_dataset[] = {
     .programme = "BCA",
     .semester = 2,
     .course_code = "Subject A2",
-    .councillor = "Beta",
+    .councilor = "Beta",
     .session_timing = {
       "Nov 4, 2023 at 9:00 AM",
       "Nov 5, 2023 at 9:00 AM",
@@ -462,7 +462,7 @@ struct CounsellingSchedule councelling_schedule_BCA_dataset[] = {
     .programme = "BCA",
     .semester = 2,
     .course_code = "Subject B2",
-    .councillor = "Alpha",
+    .councilor = "Alpha",
     .session_timing = {
       "Nov 4, 2023 at 11:00 AM",
       "Nov 5, 2023 at 11:00 AM",
@@ -479,7 +479,7 @@ struct CounsellingSchedule councelling_schedule_BCA_dataset[] = {
     .programme = "BCA",
     .semester = 2,
     .course_code = "Subject C2",
-    .councillor = "Theta",
+    .councilor = "Theta",
     .session_timing = {
       "Nov 4, 2023 at 1:00 PM",
       "Nov 5, 2023 at 1:00 PM",
@@ -497,7 +497,7 @@ struct CounsellingSchedule councelling_schedule_BCA_dataset[] = {
     .programme = "BCA",
     .semester = 3,
     .course_code = "Subject A3",
-    .councillor = "Pi",
+    .councilor = "Pi",
     .session_timing = {
       "Nov 4, 2023 at 9:00 AM",
       "Nov 5, 2023 at 9:00 AM",
@@ -514,7 +514,7 @@ struct CounsellingSchedule councelling_schedule_BCA_dataset[] = {
     .programme = "BCA",
     .semester = 3,
     .course_code = "Subject B3",
-    .councillor = "Pi",
+    .councilor = "Pi",
     .session_timing = {
       "Nov 4, 2023 at 11:00 AM",
       "Nov 5, 2023 at 11:00 AM",
@@ -531,7 +531,7 @@ struct CounsellingSchedule councelling_schedule_BCA_dataset[] = {
     .programme = "BCA",
     .semester = 3,
     .course_code = "Subject C3",
-    .councillor = "Pi",
+    .councilor = "Pi",
     .session_timing = {
       "Nov 4, 2023 at 1:00 AM",
       "Nov 5, 2023 at 1:00 AM",
@@ -559,7 +559,7 @@ struct CounsellingSchedule councelling_schedule_MCA_dataset[] = {
     .programme = "MCA",
     .semester = 1,
     .course_code = "Subject A",
-    .councillor = "Alpha",
+    .councilor = "Alpha",
     .session_timing = {
       "Nov 4, 2023 at 9:00 AM",
       "Nov 5, 2023 at 9:00 AM",
@@ -576,7 +576,7 @@ struct CounsellingSchedule councelling_schedule_MCA_dataset[] = {
     .programme = "MCA",
     .semester = 1,
     .course_code = "Subject B",
-    .councillor = "Beta",
+    .councilor = "Beta",
     .session_timing = {
       "Nov 4, 2023 at 11:00 AM",
       "Nov 5, 2023 at 11:00 AM",
@@ -593,7 +593,7 @@ struct CounsellingSchedule councelling_schedule_MCA_dataset[] = {
     .programme = "MCA",
     .semester = 1,
     .course_code = "Subject C",
-    .councillor = "Gamma",
+    .councilor = "Gamma",
     .session_timing = {
       "Nov 4, 2023 at 1:00 PM",
       "Nov 5, 2023 at 1:00 PM",
@@ -611,7 +611,7 @@ struct CounsellingSchedule councelling_schedule_MCA_dataset[] = {
     .programme = "MCA",
     .semester = 2,
     .course_code = "Subject A2",
-    .councillor = "Beta",
+    .councilor = "Beta",
     .session_timing = {
       "Nov 4, 2023 at 9:00 AM",
       "Nov 5, 2023 at 9:00 AM",
@@ -628,7 +628,7 @@ struct CounsellingSchedule councelling_schedule_MCA_dataset[] = {
     .programme = "MCA",
     .semester = 2,
     .course_code = "Subject B2",
-    .councillor = "Alpha",
+    .councilor = "Alpha",
     .session_timing = {
       "Nov 4, 2023 at 11:00 AM",
       "Nov 5, 2023 at 11:00 AM",
@@ -645,7 +645,7 @@ struct CounsellingSchedule councelling_schedule_MCA_dataset[] = {
     .programme = "MCA",
     .semester = 2,
     .course_code = "Subject C2",
-    .councillor = "Theta",
+    .councilor = "Theta",
     .session_timing = {
       "Nov 4, 2023 at 1:00 PM",
       "Nov 5, 2023 at 1:00 PM",
@@ -663,7 +663,7 @@ struct CounsellingSchedule councelling_schedule_MCA_dataset[] = {
     .programme = "MCA",
     .semester = 3,
     .course_code = "Subject A3",
-    .councillor = "Pi",
+    .councilor = "Pi",
     .session_timing = {
       "Nov 4, 2023 at 9:00 AM",
       "Nov 5, 2023 at 9:00 AM",
@@ -680,7 +680,7 @@ struct CounsellingSchedule councelling_schedule_MCA_dataset[] = {
     .programme = "MCA",
     .semester = 3,
     .course_code = "Subject B3",
-    .councillor = "Pi",
+    .councilor = "Pi",
     .session_timing = {
       "Nov 4, 2023 at 11:00 AM",
       "Nov 5, 2023 at 11:00 AM",
@@ -697,7 +697,7 @@ struct CounsellingSchedule councelling_schedule_MCA_dataset[] = {
     .programme = "MCA",
     .semester = 3,
     .course_code = "Subject C3",
-    .councillor = "Pi",
+    .councilor = "Pi",
     .session_timing = {
       "Nov 4, 2023 at 1:00 AM",
       "Nov 5, 2023 at 1:00 AM",

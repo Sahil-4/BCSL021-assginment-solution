@@ -1,7 +1,7 @@
 #ifndef UTILS_H
 #define UTILS_H
 
-// Structure to hold information about a learner support center 
+// Structure to hold information about a learner support center
 struct LearnerSupportCentre {
     int _id;
     char code[10];
@@ -18,26 +18,26 @@ struct LearnerSupportCentre {
     char status[20];
 };
 
-// Structure to hold information about a counselling schedule 
+// Structure to hold information about a counseling schedule
 struct CounsellingSchedule {
     char programme[4];
     int semester;
     char course_code[15];
-    char councillor[26];
+    char councilor[26];
     char session_timing[10][24];
     int total_sessions;
     int session_duration;
     char venue[48];
 };
 
-// Structure to hold information about a councillor 
+// Structure to hold information about a counselor
 struct Councillor {
     char programme[8];
     char name[26];
     char phone[12];
 };
 
-// Structure to hold information about a councillor 
+// Structure to hold information about a counselor
 struct AssignmentSubmissionSchedule {
     char programme[12];
     char submission_date[15];
@@ -55,7 +55,7 @@ void displayActivatedPrograms();
 // Function to display scheduling information
 void displaySchedulingInfo();
 
-// Function to display academic councillor details
+// Function to display academic counselor details
 void displayAcademicCouncillors();
 
 // Function to display assignment submission schedules

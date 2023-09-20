@@ -80,48 +80,48 @@ void displayActivatedPrograms() {
     printf("No LSC found by this code.\n\n");
 }
 
-/* Show details of Counselling Schedule */
-void printCounsellingShedule(struct CounsellingSchedule schedule) {
+/* Show details of Counseling Schedule */
+void printCounselingSchedule(struct CounsellingSchedule schedule) {
     printf("========================================\n");
     printf("Programme : %s\nSemester : %d\nCourse Code : %s\n\n", schedule.programme, schedule.semester, schedule.course_code);
     printf("Session Timing and Venue : \n");
     for (int i = 0; i < schedule.total_sessions; i++) {
-        printf("Session Timing : %s\nCounseller : %s\nVenue : %s\n\n", schedule.session_timing[i], schedule.councillor, schedule.venue);
+        printf("Session Timing : %s\nCounseller : %s\nVenue : %s\n\n", schedule.session_timing[i], schedule.councilor, schedule.venue);
     }
     printf("========================================\n\n");
 }
 
 /* Function to display scheduling information */
 void displaySchedulingInfo() {
-    printf("Councelling schedule for BCA and MCA of RC Delhi 3\n");
+    printf("Counseling schedule for BCA and MCA of RC Delhi 3\n");
     for (int i = 0; i < SIZE_OF_COUNSELLING_SCHEDULE_BCA_DATASET; i++) {
-        printCounsellingShedule(councelling_schedule_BCA_dataset[i]);
+        printCounselingSchedule(councelling_schedule_BCA_dataset[i]);
     }
     printf("\n");
     for (int i = 0; i < SIZE_OF_COUNSELLING_SCHEDULE_MCA_DATASET; i++) {
-        printCounsellingShedule(councelling_schedule_MCA_dataset[i]);
+        printCounselingSchedule(councelling_schedule_MCA_dataset[i]);
     }
     printf("\n");
 }
 
-/* print details of councillor */
-void printCouncellors(struct Councillor councillor) {
+/* print details of councilor */
+void printCounselors(struct Councillor councilor) {
     printf("========================================\n");
-    printf("Councillor Name : %s\nProgramme : %s\nContace : %s\n", councillor.name, councillor.programme, councillor.phone);
+    printf("Councillor Name : %s\nProgramme : %s\nContace : %s\n", councilor.name, councilor.programme, councilor.phone);
     printf("========================================\n\n");
 }
 
 /* Function to display academic counselor details */
 void displayAcademicCouncillors() {
     for (int i = 0; i < SIZE_OF_COUNSELLORS_DATASET; i++) {
-        printCouncellors(councillors_dataset[i]);
+        printCounselors(councillors_dataset[i]);
     }
     printf("\n");
 }
 
 void printAssignmentSubmissionInfo(struct AssignmentSubmissionSchedule schedule) {
     printf("===========================================================\n");
-    printf("Programme Name : %s\nLast data of Assignment Submission : %s\nSubmit Here : %s\nNote : %s\n", schedule.programme, schedule.submission_date, schedule.link, schedule.note);
+    printf("Programme Name : %s\nLast date of Assignment Submission : %s\nSubmit Here : %s\nNote : %s\n", schedule.programme, schedule.submission_date, schedule.link, schedule.note);
     printf("===========================================================\n\n");
 }
 

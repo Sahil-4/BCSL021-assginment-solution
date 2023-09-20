@@ -5,10 +5,10 @@
 
 /* Print the main menu */
 void print_menu() {
-    printf("1) General Information of the Learner Support Centre (LSC)\n2) Programmes activated in the study centre\n3) Scheduling of theory/practical sessions for BCA and MCA programme\n4) Academic Councillor's Details\n5) Schedules for Assignment submissions for various programmes\n6) Quit\n\nEnter your choice: ");
+    printf("1) General Information of the Learner Support Centre (LSC)\n2) Programmes activated in the study center\n3) Scheduling of theory/practical sessions for BCA and MCA programme\n4) Academic Councillor's Details\n5) Schedules for Assignment submissions for various programmes\n6) Quit\n\nEnter your choice: ");
 }
 
-// entry point 
+// entry point
 int main() {
     int choice;
 

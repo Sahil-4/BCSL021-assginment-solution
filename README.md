@@ -54,7 +54,7 @@ I have divided the logic mainly into three segments
 
 3.  [main](./main.c) - Then out main file comes this is the entry point of our program the flow of program will start from here
 
-4.  Through main.c I have provided main menu and asking user to input any option. This option I'm handing using switch case statement. If user will press 1 Case 1 will get executed and the displayGeneralInfo() function declared in utils.h and defined in utils.c will get executed.
+4.  Through main.c I have provided the main menu and asked users to input any option. This option I'm handing using a switch case statement. If the user presses 1 Case 1 will get executed and the displayGeneralInfo() function declared in utils.h and defined in utils.c will get executed.
 
 ### Screenshots of Runtime
 
@@ -83,21 +83,37 @@ After this I choose 3 in main menu to get details of Theory/Practical Schedule
 ![img06](./Assets/image06.png)
 ![img07](./Assets/image07.png)
 ![img08](./Assets/image08.png)
+![img09](./Assets/image09.png)
+![img10](./Assets/image10.png)
+![img11](./Assets/image11.png)
+![img12](./Assets/image12.png)
+![img13](./Assets/image13.png)
+![img14](./Assets/image14.png)
+![img15](./Assets/image15.png)
+![img16](./Assets/image16.png)
+![img17](./Assets/image17.png)
+![img18](./Assets/image18.png)
+![img19](./Assets/image19.png)
+![img20](./Assets/image20.png)
+![img21](./Assets/image21.png)
+![img22](./Assets/image22.png)
+![img23](./Assets/image23.png)
+![img24](./Assets/image24.png)
 
 Then I returned to the main menu and choose 4 for getting details of councilors
 
-![img09](./Assets/image09.png)
-![img10](./Assets/image10.png)
+![img25](./Assets/image25.png)
+![img26](./Assets/image26.png)
 
 Next from main menu I choose 5 to get details of assignment submission schedule
 
-![img11](./Assets/image11.png)
-![img12](./Assets/image12.png)
+![img27](./Assets/image27.png)
+![img28](./Assets/image28.png)
 
 Here I'm pressing 6 to exit from the program
 
-![img13](./Assets/image13.png)
+![img29](./Assets/image29.png)
 
 This is when I gave wrong input
 
-![img13](./Assets/image14.png)
+![img30](./Assets/image30.png)
